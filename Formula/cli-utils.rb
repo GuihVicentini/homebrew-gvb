@@ -12,6 +12,11 @@ class CliUtils < Formula
   depends_on "gradle" => :build
   depends_on "openjdk@17"
 
+  bottle do
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, arm64_sonoma: "6ae5b61c46ed1b72b0e4df1679d6f75a087075a0b25082f4f77f8f5f907dbfdc"
+  end
+
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
