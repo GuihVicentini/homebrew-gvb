@@ -1,6 +1,3 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class CliUtils < Formula
   desc "Multiple useful command-line programs using Java"
   homepage "https://github.com/GuihVicentini/cli-utils"
