@@ -5,11 +5,6 @@ class CliUtils < Formula
   sha256 "c09514ad342a1e960a102481288526a519bf08eba5657da962981d887249ba83"
   license "MIT"
 
-  bottle do
-    rebuild 1
-    sha256 cellar: :any_skip_relocation, arm64_sonoma: "6ae5b61c46ed1b72b0e4df1679d6f75a087075a0b25082f4f77f8f5f907dbfdc"
-  end
-
   depends_on "gradle" => :build
   depends_on "openjdk@17"
 
