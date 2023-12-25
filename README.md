@@ -1,4 +1,4 @@
-# Gvb Gvb
+# Gvb Homebrew tap
 
 ## How do I install these formulae?
 
