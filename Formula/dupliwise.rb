@@ -1,5 +1,5 @@
 class Dupliwise < Formula
-  desc "Rust implementation of a random generator for different random numbers like uuid or passwords"
+  desc "List or organize duplicated files"
   homepage "https://github.com/GuihVicentini/dupliwise"
   url "https://github.com/GuihVicentini/dupliwise/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "3fbede05f6b8af7ce10fe7b8a4dafef19750118978b13a7baf9781120bf00650"
