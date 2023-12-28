@@ -8,6 +8,8 @@ class CliUtils < Formula
   depends_on "gradle" => :build
   depends_on "openjdk@17"
 
+  conflicts_with "quickgen", "dupliwise" because: "quickgen and dupliwise are a rust implementation of this program"
+
   def install
     system "gradle", "clean", "build"
     libexec.install Dir["*"]
