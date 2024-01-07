@@ -1,8 +1,8 @@
 class Dupliwise < Formula
   desc "List or organize duplicated files"
   homepage "https://github.com/GuihVicentini/dupliwise"
-  url "https://github.com/GuihVicentini/dupliwise/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "3fbede05f6b8af7ce10fe7b8a4dafef19750118978b13a7baf9781120bf00650"
+  url "https://github.com/GuihVicentini/dupliwise/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "fb7010bd6478c5ba70c600ec834a4f3b31cf6421a62e73c089728859462c0514"
   license "MIT"
 
   depends_on "rust" => :build
