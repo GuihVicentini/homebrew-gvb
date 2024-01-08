@@ -2,9 +2,9 @@
 
 ## How do I install these formulae?
 
-`brew install gvb/gvb/<formula>`
+`brew install guihvicentini/gvb/<formula>`
 
-Or `brew tap gvb/gvb` and then `brew install <formula>`.
+Or `brew tap guihvicentini/gvb` and then `brew install <formula>`.
 
 ## Documentation
 
